@@ -1,0 +1,47 @@
+.serviceBanner {
+    display: flex;
+}
+.onethird-banner {
+  box-sizing: content-box;
+  position: relative;
+  text-align: center;
+  height: auto;
+}
+/* .banner1 {
+    background-image: url("/home/paul/homedesign/public/images/sdgj.jpg");
+}
+.banner2 {
+    background-image: url("/home/paul/homedesign/public/images/djy.jpg");
+}
+.banner3 {
+    background-image: url("/home/paul/homedesign/public/images/juy.jpg");
+} */
+.serviceArray-img {
+   display: block;
+   max-width: 100%;
+   max-height: auto;
+}
+.centered {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.centered h3 {
+    color: #31C6D4;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25em;
+}
+.centered h5 {
+    color: #31C6D4;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25em;
+}

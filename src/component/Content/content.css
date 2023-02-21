@@ -1,0 +1,28 @@
+.content {
+    position: absolute;
+    top: 440px;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.content-heading {
+    font-size: 65px;
+    font-weight: 700;
+}
+.content-title {
+    font-size: 30px;
+    margin: 20px auto;
+}
+.content-subtitle {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.mini-logo {
+    font-family: 'Sevillana', cursive;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    color: #31C6D4;
+}

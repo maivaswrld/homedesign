@@ -1,0 +1,51 @@
+.nav {
+    padding: 25px 1rem;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 90%;
+    /* position: fixed;
+    top: 0;
+    width: 90%; */
+}
+.logo {
+    color:#ffffff;
+    font-family: 'Sevillana', cursive;
+    font-weight: 700;
+    font-size: 45px;
+    cursor: pointer;
+    color: #31C6D4;
+    /* color: #b9f1f7; */
+}
+.nav ul {
+    align-self: center;
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+.nav ul li a {
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: medium;
+}
+.nav ul li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background: #31C6D4;
+    transition: all 0.5s;
+}
+.nav ul li a:hover {
+    color: #31C6D4;
+}
+.nav ul li a:hover::before {
+    width: 100%;
+}
+/**************************Navbar2***********************/

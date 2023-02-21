@@ -1,0 +1,14 @@
+.vendorList-container {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #31c6d4;
+}
+.vendor-list {
+    align-items: center;
+    display: flex;
+}
+.vendor-list img {
+    height: 80%;
+    display: block;
+    max-width: 100%;
+}

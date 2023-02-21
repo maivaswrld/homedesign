@@ -1,0 +1,11 @@
+.section2 {
+    text-align: center;
+    color: #1c292c;
+    font-size: 15px;
+    padding: 10vh 0;
+    background-color: #31C6D4;
+}
+.quote-text {
+    line-height: 1.7;
+    padding: 0 30px 10px 20px;
+}
